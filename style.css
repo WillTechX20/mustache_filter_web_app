@@ -1,0 +1,38 @@
+html {
+background-image: url('images/background.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+font-family: system-ui;
+text-align: center;
+}
+
+h1 {
+text-decoration: underline;
+text-decoration-color: aqua;
+}
+
+header {
+padding: 8px;
+background-color: cadetblue;
+border: 3px solid black;
+border-radius: 20px;
+}
+
+canvas {
+border: 3px solid black;
+}
+
+input[type="button"] {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 300px;
+opacity: 0.9;
+}
+            
+input[type="button"]:hover {
+opacity: 1;
+}
